@@ -1,6 +1,6 @@
-# Fullstack Course — Java Assignments
+# Java Coursework — Full-Stack Development Foundation
 
-A collection of Java coursework and Eclipse projects created for the full-stack course. The repository currently organizes exercises into separate Eclipse workspaces/projects, including `BasicOpenLabBook1` and `Java2`.
+Java laboratory exercises and Eclipse projects created during my full-stack development coursework.
 
 ## Project layout
 
@@ -10,7 +10,7 @@ A collection of Java coursework and Eclipse projects created for the full-stack 
 └── Java2/              # Additional Java exercises
 ```
 
-Each project contains Eclipse metadata such as `.project`, `.classpath`, `.settings/`, and a `src/` directory containing the Java source code.
+Each project contains Eclipse metadata and Java source code under its `src/` directory. This repository is coursework-oriented rather than a single deployable application.
 
 ## Requirements
 
@@ -27,18 +27,22 @@ Each project contains Eclipse metadata such as `.project`, `.classpath`, `.setti
 
 ## Command-line workflow
 
-If a project has a standard Java source layout, compile and run a class from its project directory with commands similar to:
+For a project with a standard Java source layout, compile and run a class from that project directory:
 
 ```bash
 javac -d out src/path/to/YourClass.java
 java -cp out path.to.YourClass
 ```
 
-Replace the class path with the actual package and class name for the exercise you want to run.
+Replace the class path with the actual package and class name for the exercise.
 
-## Notes
+## Testing and build status
 
-This repository is coursework-oriented rather than a single deployable application. There is no root build tool or automated test command currently documented.
+There is currently no root Maven/Gradle build or automated test command. The exercises are run individually through Eclipse or the command line. This limitation is intentional because the repository preserves the original coursework structure.
+
+## Scope
+
+This repository documents my early Java and software-development foundation. It should not be interpreted as a production application.
 
 ## Author
 
